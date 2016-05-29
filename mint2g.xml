@@ -4,9 +4,14 @@
 	
 	<!-- Device specific stuff -->
 	<project path="device/samsung/mint2g" name="android_device_samsung_mint" remote="TeamButter" revision="cm-13.0" />
+	<project path="vendor/samsung/mint2g" name="android_vendor_samsung_mint" remote="TeamButter" revision="cm-13.0" />
+	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="TeamButter" revision="cm-13.0" />
 
 	<!-- Project replacements -->
 	<remove-project name="CyanogenMod/android_system_core" />
 	<project path="system/core" name="android_system_core" remote="TeamButter" revision="cm-13.0" />
+	
+	<remove-project name="CyanogenMod/android_frameworks_native"/>
+	<project path="frameworks/native" name="android_frameworks_native" remote="TeamButter" revision="cm-13.0" />
 </manifest>
 	
