@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="TeamButter" fetch="https://github.com/TeamButter/" />
+	
+	<!-- Device specific stuff -->
+	<project path="device/samsung/mint2g" name="android_device_samsung_mint" remote="TeamButter" revision="cm-13.0" />
+
+	<!-- Project replacements -->
+	<remove-project name="CyanogenMod/android_system_core" />
+	<project path="system/core" name="android_system_core" remote="TeamButter" revision="cm-13.0" />
+</manifest>
+	
