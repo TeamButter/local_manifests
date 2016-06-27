@@ -13,5 +13,8 @@
 	
 	<remove-project name="CyanogenMod/android_frameworks_native"/>
 	<project path="frameworks/native" name="android_frameworks_native" remote="TeamButter" revision="cm-13.0" />
+	
+	<remove-project name="CyanogenMod/android_bionic"/>
+	<project path="bionic" name="android_bionic" remote="TeamButter" revision="cm-13.0" />
 </manifest>
 	
