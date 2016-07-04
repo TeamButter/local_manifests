@@ -32,5 +32,7 @@
 	
 	<remove-project name="CyanogenMod/android_hardware_libhardware"/>
 	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="TeamButter" revision="cm-13.0" />
+	
+	<project path="device/samsung/mint2g/cpufreq" name="kernel_module_cpufreq-driver" remote="TeamButter" revision="cyanogenmod" />
 </manifest>
 	
