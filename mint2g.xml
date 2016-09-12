@@ -12,9 +12,6 @@
 	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="cm-13.0" />
 
 	<!-- Project replacements -->
-	<remove-project name="platform/build" />
-	<project path="build" name="android_build" remote="CyanogenMod" revision="cm-14.0" />
-	
 	<remove-project name="platform/system/core" />
 	<project path="system/core" name="android_system_core" remote="TeamButter" revision="nougat" />
 	
