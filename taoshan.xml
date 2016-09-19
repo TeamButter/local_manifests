@@ -14,4 +14,7 @@
 	<project path="kernel/sony/msm8930" name="android_kernel_sony_msm8930" remote="TeamButter" revision="cm-14.0" />
 	
 	<project path="external/stlport" name="android_external_stlport" remote="CyanogenMod" revision="cm-14.0" />
+	
+	<remove-project name="CyanogenMod/android_bionic"/>
+	<project path="bionic" name="android_bionic" remote="TeamButter" revision="cm-14.0" />
 </manifest>
