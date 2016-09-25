@@ -18,6 +18,6 @@
 	<remove-project name="CyanogenMod/android_bionic"/>
 	<project path="bionic" name="android_bionic" remote="TeamButter" revision="cm-14.0" />
 	
-	<remove-project path="hardware/qcom/media-caf/msm8960"/>
+	<remove-project name= "CyanogenMod/android_hardware_qcom_media "path="hardware/qcom/media-caf/msm8960"/>
 	<project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" remote="TeamButter" revision="staging/cm-14.0-caf-8960" />
 </manifest>
