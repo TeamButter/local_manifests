@@ -33,5 +33,8 @@
 	
 	<remove-project name="CyanogenMod/android_hardware_libhardware"/>
 	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="TeamButter" revision="cm-14.0" />
+	
+	<remove-project name="CyanogenMod/android_hardware_libhardware_legacy"/>
+	<project path="hardware/libhardware)legacy" name="android_hardware_libhardware_legacy" remote="TeamButter" revision="cm-14.0" />
 </manifest>
 	
