@@ -4,10 +4,10 @@
 	<remote name="LineageOS" fetch="https://github.com/lineageos/" />
 		
 	<!-- Device specific stuff -->
-	<project path="device/samsung/mint2g" name="android_device_samsung_mint" remote="TeamButter" revision="cm-14.1" />
+	<project path="device/samsung/mint2g" name="android_device_samsung_mint" remote="TeamButter" revision="lineageos-14.1" />
 	<project path="device/samsung/sprd-common" name="android_device_samsung_sprd-common" remote="TeamButter" revision="cm-14.1" />
 	<project path="vendor/samsung/mint2g" name="android_vendor_samsung_mint" remote="TeamButter" revision="cm-14.1" />
-	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="TeamButter" revision="cm-14.1" />
+	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="TeamButter" revision="lineage-14.1" />
 	
 	<project path="hardware/samsung/sprd" name="android_hardware_samsung_sprd-common" remote="TeamButter" revision="cm-14.1" />
 	
@@ -18,22 +18,22 @@
 	<!-- Project replacements -->
 	
 	<remove-project name="LineageOS/android_system_core" />
-	<project path="system/core" name="android_system_core" remote="TeamButter" revision="cm-14.1" />
+	<project path="system/core" name="android_system_core" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<remove-project name="LineageOS/android_system_media" />
-	<project path="system/media" name="android_system_media" remote="TeamButter" revision="cm-14.1" />
+	<project path="system/media" name="android_system_media" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<remove-project name="LineageOS/android_frameworks_native"/>
-	<project path="frameworks/native" name="android_frameworks_native" remote="TeamButter" revision="cm-14.1" />
+	<project path="frameworks/native" name="android_frameworks_native" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<remove-project name="LineageOS/android_frameworks_av"/>
-	<project path="frameworks/av" name="android_frameworks_av" remote="TeamButter" revision="cm-14.1" />
+	<project path="frameworks/av" name="android_frameworks_av" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<remove-project name="LineageOS/android_frameworks_opt_telephony"/>
-	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="TeamButter" revision="cm-14.1" />
+	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<remove-project name="LineageOS/android_hardware_libhardware"/>
-	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="TeamButter" revision="cm-14.1" />
+	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="TeamButter" revision="lineageos_cm-14.1" />
 	
 	<!-- Unnecessary Projects -->
 		
