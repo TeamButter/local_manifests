@@ -16,22 +16,22 @@
 	<project path="external/stlport" name="android_external_stlport" remote="LineageOS" revision="cm-14.1" />
 
 	<!-- Project replacements -->
-	<remove-project name="CyanogenMod/android_system_core" />
+	<remove-project name="LineageOS/android_system_core" />
 	<project path="system/core" name="android_system_core" remote="TeamButter" revision="cm-14.1" />
 	
-	<remove-project name="CyanogenMod/android_system_media" />
+	<remove-project name="LineageOS/android_system_media" />
 	<project path="system/media" name="android_system_media" remote="TeamButter" revision="cm-14.1" />
 	
-	<remove-project name="CyanogenMod/android_frameworks_native"/>
+	<remove-project name="LineageOS/android_frameworks_native"/>
 	<project path="frameworks/native" name="android_frameworks_native" remote="TeamButter" revision="cm-14.1" />
 	
-	<remove-project name="CyanogenMod/android_frameworks_av"/>
+	<remove-project name="LineageOS/android_frameworks_av"/>
 	<project path="frameworks/av" name="android_frameworks_av" remote="TeamButter" revision="cm-14.1" />
 	
-	<remove-project name="CyanogenMod/android_frameworks_opt_telephony"/>
+	<remove-project name="LineageOS/android_frameworks_opt_telephony"/>
 	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="TeamButter" revision="cm-14.1" />
 	
-	<remove-project name="CyanogenMod/android_hardware_libhardware"/>
+	<remove-project name="LineageOS/android_hardware_libhardware"/>
 	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="TeamButter" revision="cm-14.1" />
 </manifest>
 	
