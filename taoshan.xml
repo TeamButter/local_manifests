@@ -6,14 +6,14 @@
 	
 	<!-- Device specific stuff -->
 	<project path="device/sony/taoshan" name="android_device_sony_taoshan" remote="TeamButter" revision="cm-14.0" />
-	<project path="device/sony/common" name="android_device_sony_common" remote="LineageOS" revision="cm-14.0" />
-	<project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="cm-14.0" />
+	<project path="device/sony/common" name="android_device_sony_common" remote="LineageOS" revision="lineage-15.0" />
+	<project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.0" />
 	
-	<project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" revision="cm-14.0" />
+	<project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" revision="linegae-15.0" />
 	
 	<project path="kernel/sony/msm8930" name="android_kernel_sony_msm8930" remote="TeamButter" revision="cm-14.0" />
 	
-	<project path="external/stlport" name="android_external_stlport" remote="LineageOS" revision="cm-14.0" />
+	<project path="external/stlport" name="android_external_stlport" remote="LineageOS" revision="lineage-15.0" />
 	
 	<remove-project name="LineageOS/android_bionic"/>
 	<project path="bionic" name="android_bionic" remote="TeamButter" revision="cm-14.0" />
