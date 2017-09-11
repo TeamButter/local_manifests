@@ -9,7 +9,7 @@
 	<project path="device/sony/common" name="android_device_sony_common" remote="LineageOS" revision="lineage-15.0" />
 	<project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.0" />
 	
-	<project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" revision="linegae-15.0" />
+	<project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" revision="lineage-15.0" />
 	
 	<project path="kernel/sony/msm8930" name="android_kernel_sony_msm8930" remote="TeamButter" revision="cm-14.1" />
 	
