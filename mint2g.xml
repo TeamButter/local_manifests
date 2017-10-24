@@ -2,20 +2,18 @@
 <manifest>
 	<remote name="TeamButter" fetch="https://github.com/TeamButter/" />
 	<remote name="LineageOS" fetch="https://github.com/LineageOS/" />
-		
+	
 	<!-- Device specific stuff -->
 	<project path="device/samsung/mint2g" name="android_device_samsung_mint2g" remote="TeamButter" revision="cm-14.1" />
 	<project path="device/samsung/sprd-common" name="android_device_samsung_sprd-common" remote="TeamButter" revision="cm-14.1" />
 	<project path="vendor/samsung/mint2g" name="android_vendor_samsung_mint2g" remote="TeamButter" revision="cm-14.1" />
-	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="TeamButter" revision="cm-14.1" />
+	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="TeamButter" revision="lineage-14.1" />
 	
-	<project path="hardware/samsung/sprd" name="android_hardware_samsung_sprd" remote="TeamButter" revision="cm-14.1" />
-	
+	<project path="hardware/sprd"  name="android_hardware_sprd-samsung" remote="TeamButter" revision="cm-14.1" />
 	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="LineageOS" revision="cm-14.1" />
-	
 	<project path="external/stlport" name="android_external_stlport" remote="LineageOS" revision="cm-14.1" />
 
-	<!-- Project replacements -->
+    <!-- Project replacements -->
 	
 	<remove-project name="LineageOS/android_system_core" />
 	<project path="system/core" name="android_system_core" remote="TeamButter" revision="cm-14.1" />
@@ -60,4 +58,3 @@
 
 	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
 </manifest>
-	
