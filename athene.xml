@@ -5,6 +5,6 @@
 <project name="TeamButter/android_kernel_motorola_msm8952" path="kernel/motorola/msm8952" revision="lineage-15.0" />
 <project name="TeamButter/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-15.0" />
 <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.0" />
-
+<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.0"/>
 
 </manifest>
