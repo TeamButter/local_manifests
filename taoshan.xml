@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="TeamButter" fetch="https://github.com/TeamButter/" />
-	<remote name="LineageOS" fetch="https://github.com/LineageOS/" />
-	<remote name="TheMuppets" fetch="https://github.com/TheMuppets/" />
-	
-	<!-- Device specific stuff -->
-	<project path="device/sony/taoshan" name="android_device_sony_taoshan" remote="TeamButter" revision="lineage-15.0" />
-	<project path="device/sony/common" name="android_device_sony_common" remote="LineageOS" revision="lineage-15.0" />
-	<project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.0" />
-	
-	<project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" revision="lineage-15.0" />
-	
-	<project path="kernel/sony/msm8930" name="android_kernel_sony_msm8930" remote="TeamButter" revision="lineage-15.0" />
-	
-	<project path="external/stlport" name="android_external_stlport" remote="LineageOS" revision="lineage-15.0" />	
+  <remote fetch="https://github.com/TeamButter/" name="TeamButter" />
+  <remote fetch="https://github.com/LineageOS/" name="LineageOS" />
+  
+  <project name="android_device_sony_taoshan" path="device/sony/taoshan" remote="TeamButter" revision="lineage-15.1" />
+  <project name="android_device_sony_common" path="device/sony/common" remote="LineageOS" revision="lineage-15.1" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="LineageOS" revision="lineage-15.1" />
+  <project name="proprietary_vendor_sony" path="vendor/sony" remote="TeamButter" revision="lineage-15.1" />
+  <project name="android_kernel_sony_msm8930" path="kernel/sony/msm8930" remote="TeamButter" revision="lineage-15.1" />
+  
+  <!-- Project replacements -->
+  <remove-project name="bionic" />
+  <project name="android_bionic" path="bionic" remote="TeamButter" revision="lineage-15.1" />
+  
+  <remove-project name="frameworks/av" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="TeamButter" revision="lineage-15.1" />
+  
+  <remove-project name="system/sepolicy" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="TeamButter" revision="lineage-15.1" />
+  
+  <!-- Remove unnecessary projects to save space -->
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/sample" />
+  <remove-project name="platform/hardware/akm" />
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
+  <remove-project name="platform/hardware/google/easel" />
+  <remove-project name="platform/hardware/invensense" />
+  <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 </manifest>
