@@ -5,3 +5,4 @@ This repo contains the device specific manifests and build guides for building L
 * athene (Motorola Moto G4/G4 Plus)
 * core33g (Samsung Galaxy Core Prime SM-G360H)
 * taoshan (Sony Xperia L)
+* santoni (Xiaomi Redmi 4X)
